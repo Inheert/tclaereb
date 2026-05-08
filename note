@@ -1,0 +1,14 @@
+APIs (Application Programming Interfaces) are sets of protocols and rules that allow different software applications to communicate and exchange data or functionality.  Their primary purpose is to hide internal system complexities, allowing developers to integrate external services without needing to understand the underlying code, thereby accelerating development and maintaining security. 
+
+APIs are categorized by their access level and architectural style:
+
+By Access and Use Case
+Open (Public) APIs: Free for external developers to access, often used to expand ecosystem reach. 
+Partner APIs: Restricted to specific business partners, requiring authentication and onboarding. 
+Internal (Private) APIs: Hidden from the public, used within an organization to streamline communication between internal teams and systems. 
+Composite APIs: Combine multiple data or service endpoints into a single call, useful for complex microservices architectures.
+By Architecture and Protocol
+REST APIs: The most common type, using standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources via URLs. 
+SOAP APIs: Use XML-based messaging and rely on strict standards and formal contracts (WSDL).
+GraphQL APIs: Allow clients to request specific data structures, reducing over-fetching of information.
+WebSocket APIs: Enable persistent, two-way communication channels for real-time data streaming.
