@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"Hello", "mfer"}
+    return {"Hello", "pretty"}
 
 @app.get("/crazy-endpoint")
 def crazy_function(useless_id: int, useless_str: str | None = None):
