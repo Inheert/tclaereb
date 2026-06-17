@@ -15,5 +15,6 @@ spec:
       containers:
       - name: my-app
         image: inheert/my-app:v2
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
